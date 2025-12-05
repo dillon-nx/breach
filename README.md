@@ -1,7 +1,7 @@
 # Breach
 
 <div align="center">
-  <img src="./media/breach_logo_sm.png" alt="Breach" />
+  <img src="./media/breach_logo_sm.png" alt="Breach" width="240" style="margin: 24px;" />
 </div>
 
 Feed GitHub repos into LLMs as distilled context, then chat with Claude about them.
@@ -16,7 +16,7 @@ LLMs hallucinate library APIs. When you ask "Create an Nx generator that uses Sv
 
 ## Installation
 ```bash
-git clone <your-repo>
+git clone https://github.com/dillon-nx/breach
 cd breach
 npm install
 npm run build
