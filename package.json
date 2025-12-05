@@ -1,0 +1,28 @@
+{
+  "name": "breach",
+  "version": "1.0.0",
+  "description": "Context bridge CLI",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "breach": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.1",
+    "@types/node": "^24.10.1",
+    "commander": "^14.0.2",
+    "consola": "^3.4.2",
+    "fast-glob": "^3.3.3",
+    "simple-git": "^3.30.0",
+    "typescript": "^5.9.3"
+  }
+}
